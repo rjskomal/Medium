@@ -24,7 +24,7 @@ export const useBlog = ({id} : {id : string})=>{
             setBlog(response.data.blog);
             setLoading(false);
         })
-        .catch(err=>{
+        .catch(()=>{
             alert("Error while fetching blog");
             setLoading(false);
         })
