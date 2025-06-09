@@ -50,7 +50,7 @@ export const useBlogs = () => {
             setBlogs(response.data.blogs);
             setLoading(false);
         })
-        .catch(err=>{
+        .catch(()=>{
             alert("Error while fetching blogs");
             setLoading(false);
         })
