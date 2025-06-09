@@ -1,0 +1,82 @@
+# prod
+dist/
+
+# dev
+.yarn/
+!.yarn/releases
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# deps
+node_modules/
+.wrangler
+
+# env
+.env
+.env.production
+.dev.vars
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
+
+/src/generated/prisma
+
+.env
+*.log
+dist/
+.wrangler/
+
+# Prisma build artifacts
+prisma/client/
+prisma/client/edge
+prisma/migrations/
+
+
+# Node modules
+node_modules/
+
+# Prisma generated folders
+prisma/client/edge
+prisma/migrations/
+
+# Build output (if any)
+dist/
+build/
+out/
+
+# Environment config
+.env
+
+# Wrangler cache (Cloudflare)
+.wrangler/
+
+# Prisma intermediate outputs
+src/generated/prisma/
+
+# OS/IDE specific
+.DS_Store
+*.log
+*.tsbuildinfo
+node_modules/
+.env
+dist/
+build/
+.prisma/
+*.db
+*.sqlite
+client/
+generated/
+*.log
