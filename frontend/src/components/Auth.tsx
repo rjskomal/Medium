@@ -49,7 +49,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
 
       <div className="w-full max-w-md">
         {type === "signup" ? <LabelledInput
-          label="Name"
+          label="name"
           placeholder="Enter your name"
           onChange={(e) => {
             setPostInputs((c) => ({
@@ -59,7 +59,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
           }}
         /> : null}
         <LabelledInput
-          label="Email"
+          label="email"
           placeholder="eminem_sang_it_btw@gmail.com"
           onChange={(e) => {
             setPostInputs((c) => ({
