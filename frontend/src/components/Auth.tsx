@@ -71,7 +71,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
         <LabelledInput
           label="Password"
           type="password"
-          placeholder="Enter your password"
+          placeholder="Enter your password (min 6 characters)"
           onChange={(e) => {
             setPostInputs((c) => ({
               ...c,
