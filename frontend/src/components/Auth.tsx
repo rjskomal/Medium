@@ -60,7 +60,7 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) => {
         /> : null}
         <LabelledInput
           label="email"
-          placeholder="eminem_sang_it@gmail.com"
+          placeholder="eminem_sang_it_btw@gmail.com"
           onChange={(e) => {
             setPostInputs((c) => ({
               ...c,
